@@ -18,6 +18,7 @@ export const Hero = () => {
         src="/hero.jpg"
         alt="hero"
         fill
+        priority
         style={{ objectFit: "cover", objectPosition: "center", zIndex: -1 }}
       />
       <Box sx={{ color: "#fff" }}>
