@@ -5,6 +5,7 @@
   "scripts": {
     "build": "rimraf _static .next && next build",
     "dev": "next dev",
+    "serve": "serve _static -p 3000",
     "start": "next start",
     "lint": "next lint"
   },
@@ -20,6 +21,7 @@
     "eslint": "8.51.0",
     "eslint-config-next": "13.5.5",
     "rimraf": "5.0.5",
+    "serve": "14.2.1",
     "typescript": "5.2.2"
   }
 }
