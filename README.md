@@ -42,7 +42,20 @@ Route (app)                              Size     First Load JS
   └ chunks/webpack-1a24bea911801174.js   1.79 kB
 ```
 
-### Tailwind CSS (???)
+### Tailwind CSS
+
+Branch: tailwind
+
+```
+Route (app)                              Size     First Load JS
+┌ ○ /                                    5.96 kB        86.4 kB
+└ ○ /_not-found                          884 B          81.3 kB
++ First Load JS shared by all            80.5 kB
+  ├ chunks/66263f16-8d3a2f73f6a4cba5.js  50.9 kB
+  ├ chunks/663-582849428a6e4727.js       27.6 kB
+  ├ chunks/main-app-fa7f854c2dbf58a4.js  230 B
+  └ chunks/webpack-906c35050b4cb109.js   1.69 kB
+```
 
 ### MUI Base UI
 
