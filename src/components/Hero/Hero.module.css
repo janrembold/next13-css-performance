@@ -1,0 +1,12 @@
+.section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+  width: 100%;
+}
+
+.content {
+  color: #fff;
+}

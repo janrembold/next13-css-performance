@@ -1,3 +1,9 @@
+import styles from "./Header.module.css";
+
 export const Header = () => {
-  return <header>STATIC HEADER COMPONENT</header>;
+  return (
+    <header className={styles.header}>
+      STATIC HEADER COMPONENT - CSS MODULES
+    </header>
+  );
 };
