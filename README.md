@@ -29,6 +29,19 @@ Route (app)                              Size     First Load JS
 
 ### Styled Components
 
+Branch: styled-components
+
+```
+Route (app)                              Size     First Load JS
+┌ ○ /                                    6.33 kB        98.7 kB
+└ ○ /_not-found                          884 B          81.4 kB
++ First Load JS shared by all            80.6 kB
+  ├ chunks/66263f16-8d3a2f73f6a4cba5.js  50.9 kB
+  ├ chunks/663-582849428a6e4727.js       27.6 kB
+  ├ chunks/main-app-fa7f854c2dbf58a4.js  230 B
+  └ chunks/webpack-1a24bea911801174.js   1.79 kB
+```
+
 ### Tailwind CSS (???)
 
 ### MUI Base UI
