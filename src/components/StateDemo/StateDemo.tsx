@@ -1,6 +1,12 @@
 "use client";
 
+import { Button } from "@mui/base";
+import { Box, styled } from "@mui/system";
 import { useEffect, useState } from "react";
+
+const StyledButton = styled(Button)`
+  background-color: green;
+`;
 
 export const StateDemo = () => {
   const [count, setCount] = useState(0);
@@ -10,10 +16,17 @@ export const StateDemo = () => {
   }, []);
 
   return (
-    <div>
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        marginTop: 5,
+      }}
+    >
       <h1>State Demo</h1>
       <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
-    </div>
+      <StyledButton onClick={() => setCount(count + 1)}>Increment</StyledButton>
+    </Box>
   );
 };
