@@ -10,10 +10,12 @@ export const StateDemo = () => {
   }, []);
 
   return (
-    <div>
+    <div className="flex flex-col items-center mt-10">
       <h1>State Demo</h1>
       <p>Count: {count}</p>
-      <button onClick={() => setCount(count + 1)}>Increment</button>
+      <button onClick={() => setCount(count + 1)} className="bg-green-500">
+        Increment
+      </button>
     </div>
   );
 };

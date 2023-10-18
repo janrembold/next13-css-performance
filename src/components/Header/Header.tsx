@@ -1,3 +1,3 @@
 export const Header = () => {
-  return <header>STATIC HEADER COMPONENT</header>;
+  return <header className="py-3 text-center">STATIC HEADER COMPONENT</header>;
 };
